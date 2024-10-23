@@ -1,0 +1,58 @@
+.principalContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 105px;
+}
+
+.formularioContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px 105px 70px 165px;
+
+}
+
+.formularioTituloContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+    gap: 19px;
+}
+
+.formularioTitulo{
+    color: var(--branco);
+}
+
+.formularioParagrafo{
+    color: var(--cinza-escuro);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.formularioInput{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.campoInputFormulario{
+    
+}
+
+
+.imagemContainer{
+    width: 710px;
+    height: 829px;;
+    margin: 34px;
+}
+
+.imagemContainer img{
+    height: 100%;
+    width: 100%;
+}
