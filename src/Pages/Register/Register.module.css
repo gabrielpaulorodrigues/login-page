@@ -9,22 +9,8 @@
 .formContainer{
     display: flex;
     flex-direction: column;
-    width: 430px;
-    height: 83%;
+    min-width: 430px;
+    min-height: 760px;
     gap: 50px;
     margin: 70px 105px 70px 165px;
-}
-
-.randomImageContainer {
-    width: 710px; 
-    height: 829px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    overflow: hidden; 
-    border-radius: 20px;
-}
-
-.randomImageContainer img { 
-    object-fit: cover; 
 }
