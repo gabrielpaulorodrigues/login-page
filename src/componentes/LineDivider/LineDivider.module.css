@@ -1,0 +1,17 @@
+.dividerContainer {
+    display: flex;               /* Alinha a linha e o texto no centro */
+    align-items: center;        /* Alinha verticalmente ao centro */
+    margin: 20px 0;            /* Espaçamento em cima e embaixo */
+}
+  
+.dividerLine {
+    flex: 1;                   
+    border: 0.1px solid #F5F5F5   /* Cor da linha */
+}
+  
+.dividerText {
+    padding: 0 10px;          /* Espaço ao redor do texto */
+    font-weight: bold;        /* Estilo do texto em negrito */
+    color: #BABABA;              /* Cor do texto (pode ser ajustado) */
+}
+  

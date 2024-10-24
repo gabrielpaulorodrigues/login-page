@@ -1,12 +1,12 @@
 :root {
-
   --white: #FFFFFF;
   --background-color: #202227;
   --subtitle-gray: #8692A6;
   --label-gray: #696F79;
   --black: #000000;
-  
-
+  --register-blue: #5871EB;
+  --divider-line: #F5F5F5;
+  --divider-text: #BABABA;
 }
 
 body{

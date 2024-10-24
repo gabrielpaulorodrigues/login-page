@@ -1,3 +1,4 @@
+import Button from '../Button';
 import InputField from '../InputField';
 import styles from './FormComponent.module.css'
 
@@ -7,7 +8,8 @@ const FormComponent = ({ formState }) => {
 
     return(
 
-        <form className={styles.formulario}>
+    <form>
+
         <InputField
             label="Your fullname*"
             type="text"
@@ -46,7 +48,16 @@ const FormComponent = ({ formState }) => {
             onChange={(e) => setTermos(e.target.checked)}
             required={true}
         />
+
+        <Button 
+        styleType="formButton" // 'styleType' aplica a classe de estilo correspondente ao botão, que é definida no módulo CSS na mesma pasta do componente.
+        onClick={() => console.log('Botão Primário')} 
+        >
+            Register Account
+        </Button>
+
     </form>
+
     )
 }
 

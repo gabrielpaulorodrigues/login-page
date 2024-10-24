@@ -1,14 +1,15 @@
 .titleContainer{
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    margin-bottom: 51px;
 }
 
 .title{
     font-family: 'Poppins', sans-serif; 
     font-weight: 600; 
     font-size: 30px; 
-    color: var(--white); 
+    color: var(--white);
+    margin-bottom: 19px; 
 }
 
 .subtitle {
