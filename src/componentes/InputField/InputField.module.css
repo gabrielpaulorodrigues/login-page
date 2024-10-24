@@ -1,0 +1,30 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.labelForm{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 16px;
+    color: var(--label-gray);
+}
+
+.inputFieldText{
+    background-color: #282A2F; 
+    border: 1px solid var(--subtitle-gray); 
+    padding: 20px; 
+    border-radius: 6px; 
+    color: var(--subtitle-gray); 
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    font-size: 16px;
+}
+
+.checkBoxContainer{
+    display: flex;
+    gap: 14px;
+}

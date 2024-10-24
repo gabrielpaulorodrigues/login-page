@@ -1,15 +1,16 @@
 :root {
 
-  --branco: #FFFFFF;
-  --cor-de-fundo: #202227;
-  --cinza-claro: #8692A6;
-  --cinza-escuro: #696F79;
-  --preto: #000000;
+  --white: #FFFFFF;
+  --background-color: #202227;
+  --subtitle-gray: #8692A6;
+  --label-gray: #696F79;
+  --black: #000000;
+  
 
 }
 
 body{
-  background-color: var(--cor-de-fundo);
+  background-color: var(--background-color);
 }
 
 *{
